@@ -12,7 +12,7 @@ line-height: 64px;
 
 .card .card-title {
 color: #fff;
-font-size: 45px;
+font-size: 35px;
 font-weight: 100;
 font-style: italic;
 }
@@ -26,4 +26,19 @@ margin-right: 20px;
 -ms-transition: color 0.3s ease;
 transition: color 0.3s ease;
 text-transform: uppercase;
+}
+
+@media only screen and (min-width: 0)
+html {
+font-size: 10px;
+}
+
+h1 {
+font-size: 40px;
+line-height: 4.62rem;
+margin: 2.1rem 0 1.68rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: 300;
 }
