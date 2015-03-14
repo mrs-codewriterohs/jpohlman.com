@@ -2,3 +2,28 @@
 max-height: 80px;
 margin-top: 20px;
 }
+@media only screen and (min-width: 601px) {
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+height: 100px;
+line-height: 64px;
+}
+}
+
+.card .card-title {
+color: #fff;
+font-size: 45px;
+font-weight: 100;
+font-style: italic;
+}
+
+.card a {
+color: #FFFFFF;
+margin-right: 20px;
+-webkit-transition: color 0.3s ease;
+-moz-transition: color 0.3s ease;
+-o-transition: color 0.3s ease;
+-ms-transition: color 0.3s ease;
+transition: color 0.3s ease;
+text-transform: uppercase;
+}
